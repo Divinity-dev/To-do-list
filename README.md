@@ -1,43 +1,6 @@
-# To-do-list
-This is an app to plan out activities for a day
+
 
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -63,11 +26,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [To-do-list] <a name="about-project"></a>
 
-> This is an app to plan out activities for a day
+> 
 
-**[your_project__name]** is a...
+**[To-do list]** is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,8 +65,9 @@ After you're finished please remove all the comments and instructions!
 
 > You can add and rermove activities planned out for the day
 
-- **[Add activity]**
-- **[remove activity]**
+- **[Add task]**
+- **[remove task]**
+- **[Edit task]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +77,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- Available soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,65 +89,40 @@ After you're finished please remove all the comments and instructions!
 
 ### Prerequisites
 
-A browser
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A browser
+- Terminal
+- Code editor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Divinity-dev/To-do-list.git
 ```
---->
+-
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd To-do-list
+  npm install
+  npm run build
 ```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm start
 ```
---->
+-
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -207,9 +146,8 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Divinity-dev)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/divine-asiriuwa-a87227a3/)
+- GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
+- LinkedIn: [divine-asiriuwa](https://www.linkedin.com/in/divine-asiriuwa-a87227a3/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -220,9 +158,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Add and remove function]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+
+- [ ] **[deploy online]**
+- [ ] **[More css design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
