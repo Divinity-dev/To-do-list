@@ -1,0 +1,53 @@
+table {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 40%;
+}
+
+.tr1 {
+  text-align: center;
+  background-color: beige;
+}
+
+.tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.desc {
+  margin-right: 400px;
+  width: 60%;
+}
+
+i {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.tr div {
+  display: flex;
+  margin-left: 10px;
+}
+
+td {
+  width: 60%;
+}
+
+.marker {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.349);
+}
