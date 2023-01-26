@@ -1,22 +1,28 @@
+/* eslint-disable no-plusplus */
 import './style.css';
 
 const list = [
   {
-    index: 1,
+    index: '',
     completed: false,
     Description: 'Morning fellowship',
   },
   {
-    index: 2,
+    index: '',
     completed: false,
     Description: 'microverse morning session',
   },
   {
-    index: 3,
+    index: '',
     completed: false,
     Description: 'Have breakfast',
   },
 ];
-document.getElementById('id1').innerHTML = list[0].Description;
-document.getElementById('id2').innerHTML = list[1].Description;
-document.getElementById('id3').innerHTML = list[2].Description;
+function renderbooks() {
+  list.forEach((items) => {
+    document.getElementById('table').innerHTML += `<tr class="tr">
+        <td><input type="checkbox"></td><td class="desc" id=${items.index}>${items.Description}</td> <td><i class="fa-solid fa-ellipsis-vertical"></i></td></tr>
+        <tr  class="tr">`;
+  });
+}
+renderbooks();
