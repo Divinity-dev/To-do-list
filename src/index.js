@@ -1,4 +1,3 @@
-// eslint-disable-next-line prefer-const, no-unused-vars
 import './style.css';
 
 const list = [
