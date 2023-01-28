@@ -12,18 +12,19 @@ const ToLocalStorage = (tasks) => {
 let list;
 let x = 0;
 let y = 0;
+let z = 0;
 function renderTasks() {
   list = JSON.parse(localStorage.getItem('to-do')) || [];
   document.getElementById('table').innerHTML += '';
   list.forEach((items) => {
     if (items.completed) {
       document.getElementById('table').innerHTML += `<tr class="tr check"id=${items.index} >
-          <td><input type="checkbox" class='todo'></td><td class="desc" contenteditable="true" data-index = "${y++}" >${items.Description}
+          <td><input type="checkbox" class='todo' data-index = "${z++}" ></td><td class="desc" contenteditable="true" data-index = "${y++}" >${items.Description}
           </td> <td><i class="fa-solid fa-ellipsis-vertical" id="${x++}"></i></td></tr>
           <tr  class="tr">`;
     } else {
       document.getElementById('table').innerHTML += `<tr class="tr"id=${items.index} >
-      <td><input type="checkbox" class='todo'></td><td class="desc" contenteditable="true" data-index = "${y++}" >${items.Description}
+      <td><input type="checkbox" class='todo' data-index = "${z++}" ></td><td class="desc" contenteditable="true" data-index = "${y++}" >${items.Description}
       </td> <td><i class="fa-solid fa-ellipsis-vertical" id="${x++}"></i></td></tr>
       <tr  class="tr">`;
     }
@@ -58,4 +59,25 @@ document.getElementById('table').onkeyup = (e) => {
     list[index].Description = e.target.innerHTML;
     ToLocalStorage(list);
    }
+};
+document.getElementById('table').onchange = (e) => {
+  if (e.target.className === 'todo') {
+    if (e.target.checked) {
+      e.target.parentElement.nextElementSibling.style.textDecoration = 'line-through';
+      const index = e.target.getAttribute('data-index');
+      list[index].completed = true;
+      ToLocalStorage(list);
+    } else {
+      e.target.parentElement.nextElementSibling.style.textDecoration = 'none';
+      const index = e.target.getAttribute('data-index');
+      list[index].completed = false;
+      ToLocalStorage(list);
+    }
+   }
+};
+document.getElementById('btn').onclick = () => {
+const uncompleted = list.filter((list, index) => !list[index].completed);
+list = uncompleted;
+ToLocalStorage(list);
+window.location.reload();
 };
