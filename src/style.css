@@ -1,5 +1,5 @@
 table {
-  width: 40%;
+  width: 100%;
 }
 
 .tr1 {
@@ -11,7 +11,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 250%;
+  width: 100%;
   border-bottom: 1px solid #000;
   position: relative;
 }
@@ -27,19 +27,19 @@ i {
   right: 0;
 }
 
-.tr div {
+/* .tr div {
   display: flex;
   margin-left: 10px;
-}
+} */
 
 td {
-  width: 60%;
+  width: 100%;
 }
 
 .marker {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,6 +54,6 @@ td {
 }
 
 .imp {
-  width: 200%;
+  width: 100%;
   border: none;
 }
