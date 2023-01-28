@@ -1,9 +1,5 @@
 table {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  width: 40%;
+  width: 100%;
 }
 
 .tr1 {
@@ -31,23 +27,33 @@ i {
   right: 0;
 }
 
-.tr div {
+/* .tr div {
   display: flex;
   margin-left: 10px;
-}
+} */
 
 td {
-  width: 60%;
+  width: 100%;
 }
 
 .marker {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid #000;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.349);
+}
+
+.check {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.imp {
+  width: 100%;
+  border: none;
 }
