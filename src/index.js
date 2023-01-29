@@ -76,7 +76,7 @@ document.getElementById('table').onchange = (e) => {
    }
 };
 document.getElementById('btn').onclick = () => {
-const uncompleted = list.filter((list, index) => !list[index].completed);
+const uncompleted = list.filter((list) => !list.completed);
 list = uncompleted;
 ToLocalStorage(list);
 window.location.reload();
