@@ -30,6 +30,7 @@ function renderTasks() {
       <tr  class="tr">`;
     }
   });
+  ToLocalStorage(list);
 }
 renderTasks();
 const activity = document.getElementById('enter');
