@@ -16,10 +16,11 @@ let z = 0;
 function renderTasks() {
   list = JSON.parse(localStorage.getItem('to-do')) || [];
   document.getElementById('table').innerHTML += '';
-  list.forEach((items) => {
+  list.forEach((items, place) => {
+    items.index = place + 1;
     if (items.completed) {
-      document.getElementById('table').innerHTML += `<tr class="tr check"id=${items.index} >
-          <td><input type="checkbox" class='todo' data-index = "${z++}" ></td><td class="desc" contenteditable="true" data-index = "${y++}" >${items.Description}
+      document.getElementById('table').innerHTML += `<tr class="tr "id=${items.index} >
+          <td><input type="checkbox" class='todo' data-index = "${z++}" checked></td><td class="desc check" contenteditable="true" data-index = "${y++}" >${items.Description}
           </td> <td><i class="fa-solid fa-ellipsis-vertical" id="${x++}"></i></td></tr>
           <tr  class="tr">`;
     } else {
