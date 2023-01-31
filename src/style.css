@@ -49,8 +49,7 @@ td {
 }
 
 .check {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  text-decoration: line-through;
 }
 
 .imp {
