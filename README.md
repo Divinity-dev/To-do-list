@@ -63,7 +63,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> You can add and rermove activities planned out for the day
+> You can add and remove activities planned out for the day
 
 - **[Add task]**
 - **[remove task]**
