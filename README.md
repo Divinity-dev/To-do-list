@@ -1,5 +1,3 @@
-
-
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -36,7 +34,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -63,7 +60,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> You can add and rermove activities planned out for the day
+> You can add and remove activities planned out for the day
 
 - **[Add task]**
 - **[remove task]**
@@ -85,13 +82,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> this project can be used to plan out daily tasks
+> This project can be used to plan out daily tasks
 
 ### Prerequisites
 
 - A browser
 - Terminal
-- Code editor
+- Code Editor
 
 ### Setup
 
@@ -142,8 +139,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
@@ -170,7 +165,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Divinity-dev/To-do-list/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +185,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to acknowledge the crreators of the minimalist project.
+I would like to acknowledge the creators of the minimalist project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
